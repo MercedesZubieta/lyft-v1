@@ -1,0 +1,104 @@
+body {
+	font-family: 'Catamaran', sans-serif;
+}
+
+.content {
+	background-image: url(../img/map.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.logo {
+	margin-top: 56px;
+}
+
+.logo img {
+	width: 31%;
+}
+
+.p-0 {
+	padding: 0px;
+}
+
+.full-vh {
+	height: 100vh;
+}
+
+.botones {
+	position: absolute;
+    bottom: 4%;
+    width: 100vw;
+    text-align: center;
+}
+
+.btn-login {
+	border: 1px solid #fff;
+}
+
+.btn-home {
+	padding: 12px 42px;
+    font-size: 21px;
+    color: white;
+}
+
+.btn-focus {
+	background: #a916bc; /* Old browsers */
+	background: -moz-linear-gradient(left,  #a916bc 1%, #d31fb5 71%, #d3269c 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #a916bc 1%,#d31fb5 71%,#d3269c 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #a916bc 1%,#d31fb5 71%,#d3269c 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a916bc', endColorstr='#d3269c',GradientType=1 ); /* IE6-9 */
+}
+
+.icon-back {
+	position: absolute;
+    left: 8px;
+    top: 4%;
+    font-size: 28px;
+    color: #555;
+}
+
+.boton-drop {
+	-webkit-appearance: none;
+    box-shadow: none;
+    background: none;
+    border-radius: 0px;
+}
+
+.btn-next {
+	background-color: #FF00BF;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 21px 0px;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+}
+
+.btn-next:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #ce0498;
+}
+
+.cod-country {
+	font-size: 21px;
+}
+
+.input-tel {
+	-webkit-appearance: none;
+    border: none;
+    width: 58%;
+    font-size: 18px;
+    padding: 0px 7px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+input:focus {
+	outline: none;
+	border: none;
+}
